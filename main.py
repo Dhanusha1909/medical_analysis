@@ -19,11 +19,11 @@ import time
 
 # ==================== CONFIGURATION ====================
 TESSERACT_PATH = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-OLLAMA_MODEL = "llama3.1"  # or "medllama2", "llama3.1:70b"
+OLLAMA_MODEL = "llama3.2:1b"  # Change this line  # or "medllama2", "llama3.1:70b"
 
 # Input PDFs
 PHOTO_PDF_PATH = "photo.pdf"
-TEXT_PDF_PATH = "text1.pdf"
+TEXT_PDF_PATH = "Cert Specialists Hospital Recs.pdf"
 
 # Output files
 MERGED_PDF = "merged_numbered.pdf"
